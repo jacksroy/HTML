@@ -1,0 +1,26 @@
+➡️Attributes are optional; you can use them to provide additional information about an HTML element.
+➡️Attributes have name and value pairs, but some of the attributes do not require any value; those are known as Boolean attributes.
+➡️An HTML element can have multiple attributes, and they should be separated by spaces.
+➡️Attributes should always be written with the opening tag.
+➡️All HTML elements can have attributes except a few like <head>, <title>, <script>, etc.
+➡️W3C recommends using attributes in lowercase and keeping the value in quotes.
+
+
+syntax:<tag_name attribute="Value">...</tag_name>
+
+
+
+example :
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Example of HTML Attributes</title>
+</head>
+
+<body>
+   <a href="https://www.tutorialspoint.com">Visit our homepage</a>   <!-- here href is attribute and link is value -->
+</body>
+
+</html>
