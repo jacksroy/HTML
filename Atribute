@@ -5,6 +5,7 @@
 ➡️All HTML elements can have attributes except a few like <head>, <title>, <script>, etc.
 ➡️W3C recommends using attributes in lowercase and keeping the value in quotes.
 
+➡️➡️➡️➡️➡️🔗🔗https://www.tutorialspoint.com/html/html_attributes.htm
 
 syntax:<tag_name attribute="Value">...</tag_name>
 
