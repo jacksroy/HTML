@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table tags</title>
+  </head>
+  <body>
+    <table border="1" style="border-collapse: collapse" cellpadding="50px">
+      <caption>
+        Student Pass or Fail
+      </caption>
+      <!-- this caption tag is used to give some basic detail about table -->
+      <colgroup>
+        <col style="background-color: #ffd699" />
+        <!-- 1st column -->
+        <col span="2" style="background-color: #d6f5d6" />
+        <!-- next 2 columns -->
+      </colgroup>
+
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Result</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>001</td>
+          <td>hs</td>
+          <td>Fail</td>
+        </tr>
+        <tr>
+          <td>002</td>
+          <td>ji</td>
+          <td>pass</td>
+        </tr>
+        <tr>
+          <td>003</td>
+          <td>sfj</td>
+          <td>Pass</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">This is total result of student 2 pass and 1 fail</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
